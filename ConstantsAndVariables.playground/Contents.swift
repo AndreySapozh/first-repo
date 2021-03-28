@@ -1,25 +1,25 @@
 import UIKit
 
-var str = "Hello, playground"
-let maximumNumbersOfLoginAttempts=10
-var currentLoginAttempt=0
-var welcomeMessage: String
-welcomeMessage = "Hello"
-let languageName="Swift"
-print(welcomeMessage,terminator:"")
-let dog="!";print(dog)
-let minValue=UInt8.max
-print(minValue)
- let three=3
-let pointOneFor=0.14159
-let pi=Double(three)+pointOneFor
-print(pi)
-let http404Error=(404,"Not found")
-let (statusCode,statusMessage)=http404Error
-print("The status code is \(http404Error.0)")
-if let firstNumber = Int("4"), let secondNumber = Int("42"), firstNumber < secondNumber && secondNumber < 100 {
-    print("\(firstNumber) < \(secondNumber) < 100")
-}
+//var str = "Hello, playground"
+//let maximumNumbersOfLoginAttempts=10
+//var currentLoginAttempt=0
+//var welcomeMessage: String
+//welcomeMessage = "Hello"
+//let languageName="Swift"
+//print(welcomeMessage,terminator:"")
+//let dog="!";print(dog)
+//let minValue=UInt8.max
+//print(minValue)
+// let three=3
+//let pointOneFor=0.14159
+//let pi=Double(three)+pointOneFor
+//print(pi)
+//let http404Error=(404,"Not found")
+//let (statusCode,statusMessage)=http404Error
+//print("The status code is \(http404Error.0)")
+//if let firstNumber = Int("4"), let secondNumber = Int("42"), firstNumber < secondNumber && secondNumber < 100 {
+//    print("\(firstNumber) < \(secondNumber) < 100")
+//}
 let age=5
 if age > 10 {
     print("Ты можешь покататься на американских горках и чертовом колесе.")
