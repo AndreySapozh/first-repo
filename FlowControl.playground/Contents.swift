@@ -1,5 +1,16 @@
 import UIKit
 
+let someCharacter = "b"
+switch someCharacter {
+case "a":
+    print("The first symbol of alphabet")
+case "z":
+    print("The last symbol of alphabet")
+default:
+    print("Some other character of alphabet")
+}
+
+
 //let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
 //for (key,value) in numberOfLegs{
 //    print("Animal is \(key), legs is \(value)")
@@ -122,4 +133,7 @@ import UIKit
 //    print("diceRoll \(diceRoll)      square \(square)")
 //}
 //print("Game over")
+
+
+
 
